@@ -1,0 +1,250 @@
+<!-- NSI Web Service v8.13.0.0 -->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+    xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure"
+    xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+    <message:Header>
+        <message:ID>IDREF486</message:ID>
+        <message:Test>false</message:Test>
+        <message:Prepared>2024-02-14T16:05:28.4867738+00:00</message:Prepared>
+        <message:Sender id="Unknown" />
+        <message:Receiver id="Unknown" />
+    </message:Header>
+    <message:Structures>
+        <structure:Codelists>
+          <structure:Codelist id="CL_ENERGY_FLOWS_AB" agencyID="CCEI" version="1.1" isFinal="false">
+            <common:Name xml:lang="en">Alberta Energy Flows</common:Name>
+            <common:Name xml:lang="fr">ToDoFR Energy Flows</common:Name>
+            <structure:Code id="AESO">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">1</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">AESO</common:Name>
+              <common:Name xml:lang="fr">AESO</common:Name>
+            </structure:Code>
+            <structure:Code id="WIND">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">2</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Wind</common:Name>
+              <common:Name xml:lang="fr">Éolienne</common:Name>
+            </structure:Code>
+            <structure:Code id="LTH">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">3</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">LTH</common:Name>
+              <common:Name xml:lang="fr">LTH</common:Name>
+            </structure:Code>
+            <structure:Code id="CCES">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">4</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">CCES</common:Name>
+              <common:Name xml:lang="fr">CCES</common:Name>
+            </structure:Code>
+            <structure:Code id="COGENERATION">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">5</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Co-Generation</common:Name>
+              <common:Name xml:lang="fr">Co-Generations</common:Name>
+            </structure:Code>
+            <structure:Code id="FORTIS">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">6</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">FORTIS</common:Name>
+              <common:Name xml:lang="fr">FORTIS</common:Name>
+            </structure:Code>
+            <structure:Code id="COAL">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">7</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Coal</common:Name>
+              <common:Name xml:lang="fr">Charbon</common:Name>
+            </structure:Code>
+            <structure:Code id="RDR">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">8</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">RDR</common:Name>
+              <common:Name xml:lang="fr">RDR</common:Name>
+            </structure:Code>
+            <structure:Code id="ISD">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">9</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">ISD</common:Name>
+              <common:Name xml:lang="fr">ISD</common:Name>
+            </structure:Code>
+            <structure:Code id="EPDI">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">10</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">EPDI</common:Name>
+              <common:Name xml:lang="fr">EPDI</common:Name>
+            </structure:Code>
+            <structure:Code id="GAS">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">11</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Gas</common:Name>
+              <common:Name xml:lang="fr">Gaz</common:Name>
+            </structure:Code>
+            <structure:Code id="APL">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">12</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">APL</common:Name>
+              <common:Name xml:lang="fr">APL</common:Name>
+            </structure:Code>
+            <structure:Code id="COMBINED_CYCLE">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">13</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Combined Cycle</common:Name>
+              <common:Name xml:lang="fr">Cycle Combiner</common:Name>
+            </structure:Code>
+            <structure:Code id="SOLAR">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">14</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Solar energy</common:Name>
+              <common:Name xml:lang="fr">Énergy solaire</common:Name>
+            </structure:Code>
+            <structure:Code id="HYDRO">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">15</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Hydro</common:Name>
+              <common:Name xml:lang="fr">Hydro</common:Name>
+            </structure:Code>
+            <structure:Code id="DUAL_FUEL">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">16</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Dual fuel</common:Name>
+              <common:Name xml:lang="fr">Gaz duelle</common:Name>
+            </structure:Code>
+            <structure:Code id="OTHER">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">17</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Other</common:Name>
+              <common:Name xml:lang="fr">Autres</common:Name>
+            </structure:Code>
+            <structure:Code id="TOTAL_NET_GENERATION">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">18</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Alberta Total Net Generation</common:Name>
+              <common:Name xml:lang="fr">Alberta Total Net Generation</common:Name>
+            </structure:Code>
+            <structure:Code id="NET_ACTUAL_INTERCHANGE">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">19</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Net Actual Interchange</common:Name>
+              <common:Name xml:lang="fr">Net Actual Interchange</common:Name>
+            </structure:Code>
+            <structure:Code id="INTERNAL_LOAD">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">20</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Alberta Internal Load (AIL)</common:Name>
+              <common:Name xml:lang="fr">Alberta Internal Load (AIL)</common:Name>
+            </structure:Code>
+            <structure:Code id="NSI">
+              <common:Annotations>
+                <common:Annotation>
+                  <common:AnnotationType>ORDER</common:AnnotationType>
+                  <common:AnnotationText xml:lang="en">21</common:AnnotationText>
+                </common:Annotation>
+              </common:Annotations>
+              <common:Name xml:lang="en">Net Scheduled Interchange</common:Name>
+              <common:Name xml:lang="fr">Net Scheduled Interchange</common:Name>
+            </structure:Code>
+            <structure:Code id="POOL_PRICE">
+                    <common:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>ORDER</common:AnnotationType>
+                            <common:AnnotationText xml:lang="en">22</common:AnnotationText>
+                        </common:Annotation>
+                    </common:Annotations>
+                    <common:Name xml:lang="en">Pool Price</common:Name>
+                    <common:Name xml:lang="fr">Prix horaire de l’énergie en Ontario</common:Name>
+                </structure:Code>
+                <structure:Code id="SYSTEM_MARGINAL_PRICE">
+                    <common:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>ORDER</common:AnnotationType>
+                            <common:AnnotationText xml:lang="en">23</common:AnnotationText>
+                        </common:Annotation>
+                    </common:Annotations>
+                    <common:Name xml:lang="en">System Marginal Price</common:Name>
+                    <common:Name xml:lang="fr">Prix horaire de l’énergie en Ontario</common:Name>
+                </structure:Code>
+          </structure:Codelist>
+        </structure:Codelists>
+    </message:Structures>
+</message:Structure>
