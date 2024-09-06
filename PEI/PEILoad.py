@@ -87,7 +87,7 @@ def writeToFile(obsval, date, filename, energyflow):
         time_period = time_period.strftime("%Y-%m-%dT%H:%M:%S")
 
         writer.writerow(["DATAFLOW","CCEI:DF_HFED_PE(1.0)","I",
-                         "N","CA_PE","_Z","ON_ISL_LOAD",date_time_local,
+                         "N","CA_PE","_Z",energyflow,date_time_local,
                          obsval,time_period,"0.0","4.0","MW","0","ENERGY","A","F"])
         
 
