@@ -66,7 +66,7 @@ with open('./PEI/output/cablesimport.csv', 'w', newline='') as file:
     field = ["STRUCTURE","STRUCTURE_ID","ACTION","FREQ","REF_AREA","COUNTERPART_AREA","ENERGY_FLOWS","DATETIME_LOCAL","OBS_VALUE","TIME_PERIOD","DAYLIGHT_OFFSET","DATETIME_LOCAL_OFFSET","UNIT_MEASURE","UNIT_MULT","MEASURE_TYPE","OBS_STATUS","CONF_STATUS"]
     writer.writerow(field)
 
-def writeToFile(obsval, date, filename):
+def writeToFile(obsval, date, filename, energyflow):
     # print(date, obsval)
     # create CSV file.
     with open('./PEI/output/'+filename+'.csv', 'a', newline='') as file:
@@ -107,12 +107,12 @@ for x in os.walk('./PEI/files/'):
         # 'Name' and 'Stream' column respectively.
         for ind in df.index:
             
-            writeToFile(df['on-island-load'][ind], df['DATETIME_LOCAL'][ind],"island_load")
-            writeToFile(df['on-island-wind'][ind], df['DATETIME_LOCAL'][ind],"island_wind")
-            writeToFile(df['on-island-fossil'][ind], df['DATETIME_LOCAL'][ind],"islandfossil")
-            writeToFile(df['wind-local'][ind], df['DATETIME_LOCAL'][ind],"windlocal")
-            writeToFile(df['wind-export'][ind], df['DATETIME_LOCAL'][ind],"windeport")
-            writeToFile(df['percentage-wind'][ind], df['DATETIME_LOCAL'][ind],"percentagewind")
-            writeToFile(df['cables-import'][ind], df['DATETIME_LOCAL'][ind],"cablesimport")
+            writeToFile(df['on-island-load'][ind], df['DATETIME_LOCAL'][ind],"island_load", "ON_ISL_LOAD")
+            writeToFile(df['on-island-wind'][ind], df['DATETIME_LOCAL'][ind],"island_wind", "ON_ISL_WIND")
+            writeToFile(df['on-island-fossil'][ind], df['DATETIME_LOCAL'][ind],"islandfossil", "ON_ISL_FOSSIL")
+            writeToFile(df['wind-local'][ind], df['DATETIME_LOCAL'][ind],"windlocal", "WIND_LOCAL")
+            writeToFile(df['wind-export'][ind], df['DATETIME_LOCAL'][ind],"windeport", "WIND_EXPORT")
+            writeToFile(df['percentage-wind'][ind], df['DATETIME_LOCAL'][ind],"percentagewind", "WIND_PERCENT")
+            writeToFile(df['cables-import'][ind], df['DATETIME_LOCAL'][ind],"cablesimport", "IMPORT_CABLES")
             # print(df['DATETIME_LOCAL'][ind], df['on-island-load'][ind])
 
