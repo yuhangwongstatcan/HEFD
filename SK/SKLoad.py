@@ -1,6 +1,6 @@
 """
 CCEI Web Scraping - Sask
-Data updated every 5 minutes
+Data updated every minutes
 https://www.saskpower.com/our-power-future/our-electricity/electrical-system/where-your-power-comes-from
 """
 import pandas as pd
